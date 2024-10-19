@@ -1,10 +1,10 @@
 body, html {
-    
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #fff;
+   margin: 0; /*Removes default margin*/
+    padding: 0; /*Removes default pading*/
+    font-family: 'Arial', sans-serif; /*Sets a clean, sans-serif font*/
+    background-color: #f4f4f4; /*Lingh gray background color*/
+    color: #333; /*Dark gray text color*/
+    Height: 100%; /*Ensure the body takes up full height*/
 }
 
 /* Navigation */
@@ -51,7 +51,7 @@ nav {
 
 /* Hero Section */
 .hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
+    background: url('../wet-pebbles-rocks-ground (1).jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
