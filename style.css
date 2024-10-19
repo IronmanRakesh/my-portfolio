@@ -48,7 +48,30 @@ nav {
 .nav-links a:hover {
     background-color: #555;
 }
-
+/* Dropdown Menu*/
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 5px 0;
+    z-index: 1;
+    list-style-type: none;
+    width: 8%;
+}
+.nav-links li:hover .dropdown{
+    display:block;
+}
+.dropdown li {
+    width: 100%;
+}
+.dropdown li a {
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+}
+.dropdown li a:hover {
+    background-color: #555;
+}
 /* Hero Section */
 .hero {
     background: url('wet-pebbles-rocks-ground (1).jpg') no-repeat center center/cover;
