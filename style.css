@@ -24,11 +24,16 @@ nav {
     padding: 0 20px;
 }
 
-.logo {
+/*
+.logo img {
     font-size: 24px;
     font-weight: bold;
 }
-
+*/
+.logo img {
+    height: 50px; /* Adjust the height as needed */
+    width: auto; /* This maintains the aspect ratio */
+}
 .nav-links {
     list-style-type: none;
     display: flex;
